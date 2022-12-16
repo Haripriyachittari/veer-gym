@@ -1,9 +1,7 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes, FaLinkedin,FaGithub } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import {BsFillPersonLinesFill} from 'react-icons/bs';
+import { FaBars, FaTimes,} from "react-icons/fa";
+
 import { Link } from "react-scroll";
-import gym from '../assets/gym.jpg'
 
 
 
