@@ -24,7 +24,7 @@ const Navbar = () => {
           <li className="m-6"> <Link  to="photos" smooth={true} duration={500} className='hover:border-b-[5px] inline py-2 border-orange-500 cursor-pointer'>
           Photos
         </Link></li>
-        <li className="m-6"> <Link  to="about" smooth={true} duration={500} className='hover:border-b-[5px] inline py-2 border-orange-500 cursor-pointer'>
+        <li className="m-6"> <Link  to="trainer" smooth={true} duration={500} className='hover:border-b-[5px] inline py-2 border-orange-500 cursor-pointer'>
           About
         </Link></li>
         
@@ -51,7 +51,7 @@ const Navbar = () => {
         <li className="py-6 text-3xl text-orange-500"><Link onClick={handleClick} to="home" smooth={true} duration={600}>
           Home
         </Link></li>
-        <li className="py-6 text-3xl text-orange-500"><Link onClick={handleClick} to="about" smooth={true} duration={600}>
+        <li className="py-6 text-3xl text-orange-500"><Link onClick={handleClick} to= "trainer" smooth={true} duration={600}>
           About
         </Link></li>
         <li className="py-6 text-3xl text-orange-500"><Link  onClick={handleClick} to ="photos" smooth={true} duration={600}>

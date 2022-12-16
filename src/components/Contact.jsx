@@ -15,7 +15,7 @@ const Contact = () => {
                 <p className=' text-2xl md:text-3xl font-bold text-gray-300 inline border-b-4 border-orange-600 '>GET IN TOUCH</p>
                 <p className='text-gray-300 text-xl md:text-2xl p-4'>Submit the form below or reach me out </p>
             </div>
-       <div  className=' flex flex-col md:flex-row  '>
+       <div  className=' flex flex-col  '>
        <div className='  text-gray-300  ' data-aos="zoom-in-right">
         <h1 className=' underline text-orange-600 text-xl md:text-3xl pb-3 '>Reach me Out</h1>
           <p  className='text-xl md:text-2xl'><span className='text-orange-600'>Phone:</span> 8660809299</p>

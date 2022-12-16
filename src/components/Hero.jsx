@@ -14,7 +14,7 @@ const Hero = () => {
         <div data-aos="fade-up" className=' absolute text-gray-200   bottom-[2%] md:top-[70%]  left-3 md:left-10'>
             <h1 className='tracking-[.5rem] font-bold  my-2 text-orange-600  border-b-2 text-2xl'>TIMINGS</h1>
             <p className=' text-xl md:text-3xl'>Morning: 5 AM to 8.30 AM </p>
-            <p className=' text-xl md:text-3xl'>Evening : 5 AM to 8.30 AM </p>
+            <p className=' text-xl md:text-3xl'>Evening : 5 PM to 7.30 PM </p>
         </div>
       <img src={hero} alt='/' className='w-full h-[600px] md:h-screen object-cover'/>
       <div className=' absolute text-orange-600 font-bold  text-3xl top-[13%] md:text-5xl mx-8 md:top-[68%] right-20  '><Typewriter
