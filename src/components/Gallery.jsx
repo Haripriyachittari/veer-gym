@@ -18,7 +18,7 @@ const Gallery = () => {
   return (
 
     <div name='photos' className='w-full h-screen bg-[#19191a]  flex justify-center items-center p- relative'>
-        <div className='flex flex-col gap-8 justify-center items-center' data-aos='zoom-in-left'>
+        <div className='flex flex-col gap-8 justify-center items-center' data-aos='zoom-in-right'>
         <h1 className='text-gray-300 font-bold  inline border-b-4 border-orange-600'>Gallery</h1>
         <div className='flex items-center justify-center text-gray-300 p-4 '>
             
