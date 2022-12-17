@@ -26,7 +26,7 @@ const About = () => {
             </div>
 
         </div>
-        <p className='fixed bottom-2 right-3'><Link to='home'  smooth={true}><BsFillArrowUpCircleFill className='mr-3 cursor-pointer text-orange-600' /></Link></p> 
+        <p className='fixed bottom-2 right-1'><Link to='home'  smooth={true}><BsFillArrowUpCircleFill className='mr-3 cursor-pointer text-orange-600' /></Link></p> 
 
         </div>
     </div>
