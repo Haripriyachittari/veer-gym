@@ -22,7 +22,7 @@ const Contact = () => {
           <p className=' text-xl md:text-2xl'><span className='text-orange-600'>Email:</span>    <a href='mailto:hpvarma09@gmail.com' target='_blank'  rel='noreferrer' className='text-gray-300 underline'>hpvarma09@gmail.com</a></p>
           <p className=' text-xl md:text-2xl'><span className='text-orange-600'>Address:</span> Beside Ramakrishna theatre, Siruguppa, Bellary Dist</p>
         </div>
-        <form  method ='POST' action="https://getform.io/f/33f60396-7e67-44ca-8011-78933ad317a1" className='flex flex-col max-w-[600px] w-full mt-10' data-aos="zoom-in-left">
+        <form  method ='POST' action="https://getform.io/f/33f60396-7e67-44ca-8011-78933ad317a1" className='flex flex-col max-w-[600px] w-full mt-10' data-aos='fade-down'>
             
             <div className='flex justify-between'>
             <input type='text' className='rounded-md text-[1rem]  w-[45%]' placeholder='First Name' required/>
