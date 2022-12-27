@@ -7,7 +7,7 @@ import picture2 from '../assets/veergym-3.jpg';
 import picture3 from '../assets/veergym-10.jpg'
 import picture4 from '../assets/veergym-5.jpg';
 import picture5 from '../assets/veergym-6.jpg';
-import picture6 from '../assets/veergym-7.jpg';
+
 import picture7 from '../assets/veergym-11.jpg';
 
 
@@ -31,21 +31,22 @@ const Gallery = () => {
         <h1 className='text-gray-300 font-bold  inline border-b-4 border-orange-600'>Gallery</h1>
         <div className='flex items-center justify-center text-gray-300 p-4 '>
             
-        <BsArrowLeftSquareFill className='absolute left-2 text-gray-300 cursor-pointer opacity-50 hover:opacity-100 ' onClick={slideLeft}/>
+        <BsArrowLeftSquareFill className='absolute left-2 cursor-pointer  text-orange-600 ' onClick={slideLeft}/>
            <div id='slider' className='flex overflow-x-scroll scroll whitespace-nowrap gap-4 scrollbar-hide'>
-           <img src={picture5} className='w-[300px] rounded-xl hover:border  duration-300 ease-in object-cover ' alt='/'/>
-           <img src={picture3} className='w-[300px] rounded-xl hover:border  sc duration-300 ease-in object-cover ' alt='/'/>
+           <img src={picture5} className='w-[300px] h-[300px] rounded-xl hover:border  duration-300 ease-in object-cover ' alt='/'/>
+                       <img src={picture2} className='w-[300px] h-[300px] rounded-xl hover:border  duration-300 ease-in object-cover ' alt='/'/>
 
-           <img src={picture7} className='w-[300px] rounded-xl hover:border  sc duration-300 ease-in object-cover ' alt='/'/>
+           <img src={picture3} className='w-[300px] h-[300px] rounded-xl hover:border  sc duration-300 ease-in object-cover ' alt='/'/>
 
-            <img src={picture1} className='w-[300px] rounded-xl hover:border  sc duration-300 ease-in object-cover ' alt='/'/>
-            <img src={picture2} className='w-[300px] rounded-xl hover:border  duration-300 ease-in object-cover ' alt='/'/>
+           <img src={picture7} className='w-[300px] h-[300px] rounded-xl hover:border  sc duration-300 ease-in object-cover ' alt='/'/>
+
             <img src={picture4} className='w-[300px] rounded-xl hover:border  duration-300 ease-in object-cover ' alt='/'/>
-            <img src={picture6} className='w-[300px] rounded-xl hover:border  duration-300 ease-in object-cover ' alt='/'/>
+                        <img src={picture1} className='w-[300px] h-[300px] rounded-xl hover:border  sc duration-300 ease-in object-cover ' alt='/'/>
+
            </div>
         </div>
         
-            <BsArrowRightSquareFill className='absolute bottom-[55%] right-2 text-gray-300 cursor-pointer opacity-50 ho' onClick={slideRight}/>
+            <BsArrowRightSquareFill className='absolute bottom-[55%] right-2 text-orange-600 cursor-pointer ' onClick={slideRight}/>
 
             <div className='text-gray-300 p-4'>
                 <h1 className='my-4 text-xl text-orange-600 font-bold'>Personal Trainings will be provided to both men and women by trainer.</h1>
