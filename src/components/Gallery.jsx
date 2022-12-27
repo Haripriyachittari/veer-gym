@@ -2,6 +2,14 @@ import React, { useEffect } from 'react'
 import {BsArrowRightSquareFill,BsArrowLeftSquareFill} from 'react-icons/bs'
 import Aos from 'aos';
 import 'aos/dist/aos.css'
+import picture1 from '../assets/veergym-1.jpg';
+import picture2 from '../assets/veergym-3.jpg';
+import picture3 from '../assets/veergym-4.jpg';
+import picture4 from '../assets/veergym-5.jpg';
+import picture5 from '../assets/veergym-6.jpg';
+import picture6 from '../assets/veergym-7.jpg';
+
+
 
 const Gallery = () => {
     const slideLeft=()=>{
@@ -24,21 +32,19 @@ const Gallery = () => {
             
         <BsArrowLeftSquareFill className='absolute left-2 text-gray-300 cursor-pointer opacity-50 hover:opacity-100 ' onClick={slideLeft}/>
            <div id='slider' className='flex overflow-x-scroll scroll whitespace-nowrap gap-4 scrollbar-hide'>
-            <img src='https://images.unsplash.com/photo-1671034129957-9f60a2df822b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80' className='w-[300px] rounded-xl hover:border  sc duration-300 ease-in' alt='/'/>
-            <img src='https://images.unsplash.com/photo-1671034129957-9f60a2df822b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80' className='w-[300px] rounded-xl hover:border  duration-300 ease-in' alt='/'/>
-            <img src='https://images.unsplash.com/photo-1671034129957-9f60a2df822b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80' className='w-[300px] rounded-xl hover:border  duration-300 ease-in' alt='/'/>
-            <img src='https://images.unsplash.com/photo-1671034129957-9f60a2df822b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80' className='w-[300px] rounded-xl hover:border  duration-300 ease-in' alt='/'/>
-            <img src='https://images.unsplash.com/photo-1671034129957-9f60a2df822b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80' className='w-[300px] rounded-xl hover:border  duration-300 ease-in' alt='/'/>
-            <img src='https://images.unsplash.com/photo-1671034129957-9f60a2df822b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80' className='w-[300px] rounded-xl hover:border  duration-300 ease-in' alt='/'/>
+            <img src={picture1} className='w-[300px] rounded-xl hover:border  sc duration-300 ease-in object-cover ' alt='/'/>
+            <img src={picture2} className='w-[300px] rounded-xl hover:border  duration-300 ease-in object-cover ' alt='/'/>
+            <img src={picture3} className='w-[300px] rounded-xl hover:border  duration-300 ease-in object-cover ' alt='/'/>
+            <img src={picture4} className='w-[300px] rounded-xl hover:border  duration-300 ease-in object-cover ' alt='/'/>
+            <img src={picture5} className='w-[300px] rounded-xl hover:border  duration-300 ease-in object-cover ' alt='/'/>
+            <img src={picture6} className='w-[300px] rounded-xl hover:border  duration-300 ease-in object-cover ' alt='/'/>
            </div>
         </div>
         
             <BsArrowRightSquareFill className='absolute bottom-[55%] right-2 text-gray-300 cursor-pointer opacity-50 ho' onClick={slideRight}/>
 
-            <div className='text-gray-300'>
-                <h1 className='font-bold  inline border-b-4 border-orange-600 text-2xl ' >Training Programs</h1> 
-                <p className='my-4 text-xl '>Personal Trainings by trainer</p>
-                <p className='my-4 text-xl '>Self Trainings</p>
+            <div className='text-gray-300 p-4'>
+                <h1 className='my-4 text-xl text-orange-600 font-bold'>Personal Trainings will be provided to both men and women by trainer.</h1>
 
             </div>
         </div>
