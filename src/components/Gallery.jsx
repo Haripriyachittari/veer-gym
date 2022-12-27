@@ -4,10 +4,11 @@ import Aos from 'aos';
 import 'aos/dist/aos.css'
 import picture1 from '../assets/veergym-1.jpg';
 import picture2 from '../assets/veergym-3.jpg';
-import picture3 from '../assets/veergym-4.jpg';
+import picture3 from '../assets/veergym-10.jpg'
 import picture4 from '../assets/veergym-5.jpg';
 import picture5 from '../assets/veergym-6.jpg';
 import picture6 from '../assets/veergym-7.jpg';
+import picture7 from '../assets/veergym-11.jpg';
 
 
 
@@ -32,11 +33,14 @@ const Gallery = () => {
             
         <BsArrowLeftSquareFill className='absolute left-2 text-gray-300 cursor-pointer opacity-50 hover:opacity-100 ' onClick={slideLeft}/>
            <div id='slider' className='flex overflow-x-scroll scroll whitespace-nowrap gap-4 scrollbar-hide'>
+           <img src={picture5} className='w-[300px] rounded-xl hover:border  duration-300 ease-in object-cover ' alt='/'/>
+           <img src={picture3} className='w-[300px] rounded-xl hover:border  sc duration-300 ease-in object-cover ' alt='/'/>
+
+           <img src={picture7} className='w-[300px] rounded-xl hover:border  sc duration-300 ease-in object-cover ' alt='/'/>
+
             <img src={picture1} className='w-[300px] rounded-xl hover:border  sc duration-300 ease-in object-cover ' alt='/'/>
             <img src={picture2} className='w-[300px] rounded-xl hover:border  duration-300 ease-in object-cover ' alt='/'/>
-            <img src={picture3} className='w-[300px] rounded-xl hover:border  duration-300 ease-in object-cover ' alt='/'/>
             <img src={picture4} className='w-[300px] rounded-xl hover:border  duration-300 ease-in object-cover ' alt='/'/>
-            <img src={picture5} className='w-[300px] rounded-xl hover:border  duration-300 ease-in object-cover ' alt='/'/>
             <img src={picture6} className='w-[300px] rounded-xl hover:border  duration-300 ease-in object-cover ' alt='/'/>
            </div>
         </div>
